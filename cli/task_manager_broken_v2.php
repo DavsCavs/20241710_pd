@@ -102,8 +102,6 @@ while (true) {
         case 5:
             echo "Exiting the application. Goodbye!\n";
             exit;
-        case 13:
-            print_r($tasks);
         default:
             echo "Invalid option. Please choose again.\n";
     }
